@@ -1,10 +1,8 @@
-# Social Media Platform – CodeAlpha Internship Task 2
-
+## Mini Social Media App – CodeAlpha Internship Task 2
 ## Project Description
-This is a backend-based **Social Media Platform** developed as part of **CodeAlpha Internship – Task 2**.  
-The project focuses on RESTful API development and testing using Postman.
 
----
+This is a backend-based Mini Social Media App developed as part of CodeAlpha Internship – Task 2.
+The project focuses on RESTful API development and testing using Postman.
 
 ## Features
 - User Registration API
