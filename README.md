@@ -1,69 +1,42 @@
-## Mini Social Media App – CodeAlpha Internship Task 2
-## Project Description
+# Mini Social Media App – CodeAlpha Internship Task 2
 
-This is a backend-based Mini Social Media App developed as part of CodeAlpha Internship – Task 2.
-The project focuses on RESTful API development and testing using Postman.
+## Project Description
+This project is developed as part of **CodeAlpha Internship – Task 2**.  
+It is a **Mini Social Media App** where users can create profiles, share posts, comment on posts, like posts, and follow other users.  
+The project demonstrates **full-stack development** with frontend, backend, and database integration, along with **RESTful API testing** using Postman.
 
 ## Features
-- User Registration API
-- User Login API
-- Create Post API
-- Follow User API
-- MongoDB Atlas database integration
-
----
+- **User Profiles** – Users can register and update their profile information.  
+- **Posts & Comments** – Users can create posts and comment on other posts.  
+- **Like/Follow System** – Users can like posts and follow other users.  
+- **MongoDB Atlas Database Integration** – Stores all users, posts, comments, and follower data.  
+- **RESTful APIs** – Backend APIs tested and verified using Postman.  
 
 ## Technologies Used
-- Node.js
-- Express.js
-- MongoDB Atlas
-- Postman
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** Node.js + Express.js (Django can also be used)  
+- **Database:** MongoDB Atlas  
+- **API Testing:** Postman  
 
----
+## API Endpoints
 
-## API Endpoints Tested
+**Authentication APIs**  
+- `POST /api/auth/register` – Register a new user  
+- `POST /api/auth/login` – Login an existing user  
 
-### Authentication APIs
-- POST `/api/auth/register`
-- POST `/api/auth/login`
+**Post APIs**  
+- `POST /api/posts/create` – Create a new post  
+- `GET /api/posts` – Retrieve all posts  
 
-### Post API
-- POST `/api/posts/create`
+**Like & Comment APIs**  
+- `POST /api/posts/like` – Like a post  
+- `POST /api/posts/comment` – Comment on a post  
 
-### Follow API
-- POST `/api/follow/follow`
-
----
+**Follow API**  
+- `POST /api/follow/follow` – Follow another user  
 
 ## How to Run the Project
 
-1. Install dependencies:npm install
-
-2. Start server:node backend/server.js
-
-3. Server will run on:http://localhost:5000
-   
----
-
-## API Testing Proof (Screenshots)
-
-### Server Running
-![Server Running](screenshots/cmd_run.png)
-
-### User Registration Success
-![User Registration](screenshots/user_resgister_success.png)
-
-### Test User Data
-![Test User](screenshots/test_user.png)
-
-### Post Created Successfully
-![Post Created](screenshots/post_created_success.png)
-
-### User Follow Success
-![Follow User](screenshots/user_follow_success.png)
-
----
-
-## Internship Task Status
-✅ CodeAlpha Internship – Task 2 completed successfully.
-
+1. Clone the repository:  
+   ```bash
+   git clone <your-repo-url>
