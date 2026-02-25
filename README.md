@@ -23,23 +23,20 @@ Users can **register, login, create posts, follow, like, and comment on posts**.
 
 ## Screenshots
 
-**Server Running:**  
-![Server Running](screenshots/server-running.png)
+**Command Run / Server Running:**  
+![Command Run](screenshots/cmd_run.png)
 
-**User Registration:**  
-![User Registration](screenshots/user_resgister_success.png)
+**Like & Comment Demo:**  
+![Like & Comment](screenshots/likeandcomment.png)
+
+**Post Created Successfully (2):**  
+![Post Created 2](screenshots/post_created_success%20(2).png)
+
+**Post Created Successfully:**  
+![Post Created](screenshots/post_created_success.png)
 
 **Test User Data:**  
-![Test User](screenshots/test-user.png)
+![Test User](screenshots/test_user.png)
 
-**Post Created:**  
-![Post Created](screenshots/post-created.png)
-
-**Follow User:**  
-![Follow User](screenshots/follow-user.png)
-
-**Like Post:**  
-![Like Post](screenshots/like.png)
-
-**Comment on Post:**  
-![Comment on Post](screenshots/comment.png)
+**User Follow Success:**  
+![Follow User](screenshots/user_follow_success.png)
