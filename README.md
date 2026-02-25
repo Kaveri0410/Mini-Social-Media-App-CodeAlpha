@@ -27,7 +27,7 @@ Users can **register, login, create posts, follow, like, and comment on posts**.
 ![Server Running](screenshots/server-running.png)
 
 **User Registration:**  
-![User Registration](screenshots/user-registration.png)
+![User Registration](screenshots/user_resgister_success.png)
 
 **Test User Data:**  
 ![Test User](screenshots/test-user.png)
