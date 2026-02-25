@@ -1,42 +1,45 @@
 # Mini Social Media App – CodeAlpha Internship Task 2
 
 ## Project Description
-This project is developed as part of **CodeAlpha Internship – Task 2**.  
-It is a **Mini Social Media App** where users can create profiles, share posts, comment on posts, like posts, and follow other users.  
-The project demonstrates **full-stack development** with frontend, backend, and database integration, along with **RESTful API testing** using Postman.
+This is a **backend-based Mini Social Media App** developed as part of **CodeAlpha Internship – Task 2**.  
+The project focuses on **RESTful API development** and testing using **Postman**.  
+Users can **register, login, create posts, follow, like, and comment on posts**.
 
 ## Features
-- **User Profiles** – Users can register and update their profile information.  
-- **Posts & Comments** – Users can create posts and comment on other posts.  
-- **Like/Follow System** – Users can like posts and follow other users.  
-- **MongoDB Atlas Database Integration** – Stores all users, posts, comments, and follower data.  
-- **RESTful APIs** – Backend APIs tested and verified using Postman.  
+- User Registration API  
+- User Login API  
+- Create Post API  
+- Follow User API  
+- Like Post API  
+- Comment on Post API  
+- MongoDB Atlas database integration  
 
 ## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** Node.js + Express.js (Django can also be used)  
-- **Database:** MongoDB Atlas  
-- **API Testing:** Postman  
+- Node.js  
+- Express.js  
+- MongoDB Atlas  
+- HTML, CSS, JavaScript (optional frontend)  
+- Postman  
 
-## API Endpoints
+## Screenshots
 
-**Authentication APIs**  
-- `POST /api/auth/register` – Register a new user  
-- `POST /api/auth/login` – Login an existing user  
+**Server Running:**  
+![Server Running](screenshots/server-running.png)
 
-**Post APIs**  
-- `POST /api/posts/create` – Create a new post  
-- `GET /api/posts` – Retrieve all posts  
+**User Registration:**  
+![User Registration](screenshots/user-registration.png)
 
-**Like & Comment APIs**  
-- `POST /api/posts/like` – Like a post  
-- `POST /api/posts/comment` – Comment on a post  
+**Test User Data:**  
+![Test User](screenshots/test-user.png)
 
-**Follow API**  
-- `POST /api/follow/follow` – Follow another user  
+**Post Created:**  
+![Post Created](screenshots/post-created.png)
 
-## How to Run the Project
+**Follow User:**  
+![Follow User](screenshots/follow-user.png)
 
-1. Clone the repository:  
-   ```bash
-   git clone <your-repo-url>
+**Like Post:**  
+![Like Post](screenshots/like.png)
+
+**Comment on Post:**  
+![Comment on Post](screenshots/comment.png)
