@@ -1,9 +1,22 @@
-# Mini Social Media App – CodeAlpha Internship Task 2
+# Social Media Platform – CodeAlpha Internship Task 2
 
 ## Project Description
-This is a **backend-based Mini Social Media App** developed as part of **CodeAlpha Internship – Task 2**.  
+This is a **backend-based Social Media Platform** developed as part of **CodeAlpha Internship – Task 2**.  
 The project focuses on **RESTful API development** and testing using **Postman**.  
 Users can **register, login, create posts, follow, like, and comment on posts**.
+
+## 👩‍🎓 Intern Details
+
+Name: Katikala Kaveri
+
+Student ID: CA/DF1/23603
+
+Internship Domain: Full Stack Development
+
+Organization: CodeAlpha
+
+Project Name: Social Media Platform
+
 
 ## Features
 - User Registration API  
