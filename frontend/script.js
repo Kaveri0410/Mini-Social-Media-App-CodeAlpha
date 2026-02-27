@@ -3,7 +3,6 @@ const API = "http://localhost:5000/api/posts";
 const postForm = document.getElementById("postForm");
 const postContainer = document.getElementById("postContainer");
 
-// Fetch all posts
 async function fetchPosts() {
   const res = await fetch(API);
   const posts = await res.json();
@@ -34,7 +33,7 @@ async function fetchPosts() {
   });
 }
 
-// Create Post
+
 postForm.addEventListener("submit", async (e) => {
   e.preventDefault();
 
@@ -52,7 +51,7 @@ postForm.addEventListener("submit", async (e) => {
   fetchPosts();
 });
 
-// Like Post
+
 async function likePost(id) {
   await fetch(`${API}/${id}/like`, {
     method: "POST"
@@ -61,7 +60,7 @@ async function likePost(id) {
   fetchPosts();
 }
 
-// Add Comment
+
 async function addComment(id) {
   const commentInput = document.getElementById(`comment-${id}`);
   const comment = commentInput.value;
@@ -78,5 +77,5 @@ async function addComment(id) {
   fetchPosts();
 }
 
-// Initial Load
+
 fetchPosts();
